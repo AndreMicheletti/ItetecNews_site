@@ -1,0 +1,740 @@
+/* CSS STYLE */
+
+*{
+	-webkit-font-smoothing: antialiased;
+	margin:0;
+	padding:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.site {
+	width:100%;
+	background:#DDD;
+	margin:0 auto;
+}
+
+div.head_menu {
+	background:#FFF;
+	width:100%;
+	height:65px;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:20px;
+	border-bottom:1px solid #2E3F92;
+	position:fixed;
+	z-index:1000000000;
+}
+
+div.head_logo {
+	width:33%;
+	height:65px;
+	padding:5px;
+	float:left;
+}
+
+img.head_logo {
+	padding:0 auto;
+	margin:0 auto;
+	height:65px;
+	margin-left:0px;
+	transition:margin-left 0.5s;
+}
+
+img.head_logo:hover {
+	margin-left:20%;
+}
+
+div.head_search {
+	width:22%;
+	height:55px;
+	padding:5px;
+	padding-left:50px;
+	float:left;
+}
+
+#pesquisa {
+	width:70%;
+	height:40px;
+	margin: 0;
+	background-image: url(images/header_search_icon.svg);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-indent:25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border:1px solid rgba(0,0,0,0.2);
+	border-radius:1px;
+	float:left;
+}
+
+div.head_login {
+	width:32%;
+	height:55px;
+	padding:5px;
+	float:left;
+}
+
+.header_divider {
+	display: block;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	width: 0;
+	height: 40px;
+	margin: 5px 20px;
+	float:left;
+}
+
+div.site_content {
+	width:100%;
+	padding-top:65px;
+}
+
+div.principal {
+	width:100%;
+	height:785px;
+	background-image:url(images/back.png);
+	background-repeat:repeat;
+}
+
+div.destaques-center {
+	height:620px;
+	width:50%;
+	margin-top:10px;
+	margin-left:15%;
+	background:rgba(0,0,0,0.5);
+	float:left;
+}
+
+div.destaques-right {
+	height:600px;
+	width:20%;
+	margin-top:10px;
+	margin-right:3%;
+	background:rgba(0,0,0,0.8);
+	color:#FFF;
+	padding:10px;
+	float:left;
+}
+
+
+div.outros {
+	width:100%;
+}
+
+div.footer {
+	background:#151515;
+	border-top:1px solid #000;
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	height:40px;
+	color:#FFF;
+	font:12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input.pesquisar_btn {
+	margin-left:5px;
+	width:42px;
+	height:42px;
+	background-color:#EEE;
+	background-image: url(images/pesquisar.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border:1px solid rgba(0,0,0,0.2);
+	border-radius:1px;
+	float:left;
+	margin:0;
+}
+
+input.login_input {
+	margin-top:7px;
+	margin-right:2%;
+	text-indent:8px;
+	width:30%;
+	height:25px;
+	float:left;	
+}
+
+input.login_input_failed {
+	margin-top:7px;
+	margin-right:2%;
+	text-indent:8px;
+	width:30%;
+	height:25px;
+	float:left;	
+	border:1px solid #C00;
+}
+
+input.login_input_failed:hover {
+	border:1px solid #C00;
+}
+
+input.login_btn {
+	margin-top:9px;
+	width:30%;
+	margin-left:5px;
+	height:25px;
+	float:right;	
+}
+
+input.login_btn:hover {
+	border:1px solid #09C;
+}
+
+div.likes {
+	width:100px;
+	height:30px;
+	float:right;
+	background-image:url(images/like.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-color:rgba(0,0,180,0.5);
+	margin-right:5%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#FFF;
+	text-indent:4px;
+	text-align:left;
+	line-height:normal;
+	border-radius:10px;
+	border:1px solid #006;
+	font:22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.likes2 {
+	width:100px;
+	height:30px;
+	float:right;
+	background-image:url(images/like.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-color:rgba(0,0,180,0.5);
+	margin-right:5%;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#FFF;
+	text-indent:4px;
+	text-align:left;
+	line-height:normal;
+	border-radius:10px;
+	border:1px solid #006;
+	font:22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+font.welcome {
+	
+}
+
+div.mudar-perfil {
+	background:rgba(0,0,0,0.7);
+	margin-left:5%;
+	margin-right:5%;
+	width:80%;
+	padding:5%;
+	height:84%;
+}
+
+div.principal2 {
+	width:100%;
+	height:1050px;
+	background-image:url(images/back.png);
+	background-repeat:repeat;
+}
+
+img.foto-perfil {
+	height:200px;
+	width:200px;	
+}
+
+input.perfil {
+	width:260px;
+	height:22px;
+}
+
+input.salvar {
+	margin-top:9px;
+	width:30%;
+	height:25px;
+	float:left;	
+	margin-left:20px;
+}
+
+input.salvar:hover {
+	margin-top:9px;
+	width:30%;
+	height:25px;
+	float:left;	
+	border:1px solid #09C;
+}
+
+td{
+	padding:5px;	
+}
+
+div.principal3 {
+	width:100%;
+	background-image:url(images/back.png);
+	background-repeat:repeat;
+}
+
+div.p {
+	background:rgba(0,0,0,0.8);
+	width:80%;
+	margin-left:10%;
+	padding-top:20px;
+	height:50px;
+}
+
+div.p-container {
+	background:rgba(0,0,0,0.6);
+	width:80%;
+	color:#FFF;
+	margin-left:10%;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+div.postagem {
+	width:90%;
+	height:120px;
+	padding-left:10px;
+	padding-top:10px;
+	background-color:rgba(0,0,80,0.6);
+	margin-left:5%;
+	border:1px solid #003;
+	transition:border 0.5s;
+	font:17px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+div.postagem:hover {
+	border:1px solid #999;
+}
+
+div.criar-table {
+	padding-top:50px;
+	margin-left:15%;
+	font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+input.criar {
+	width:100%;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+select.criar {
+	width:100%;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+img.noticia {
+	border-radius:2px;
+	width:800px;
+	height:600px;
+}
+
+img.noticia-icon {
+	height:100px;	
+}
+
+div.perfil {
+	background:rgba(0,0,0,0.8);
+	border-radius:10px;
+	width:90%;
+	height:200px;
+	margin-left:5%;
+	padding:10px;
+	color:#FFF;
+	transition:background 0.8s;
+}
+
+div.perfil:hover {
+	background:rgba(0,0,50,0.8);
+}
+
+div.index-cat {
+	margin:0 auto;
+	padding:0;
+	width:90%;
+	margin-left:5%;
+	padding:5px;
+	padding-bottom:20px;
+	position:relative;
+}
+
+div.categoria-title {
+	margin-top:10px;
+	margin-bottom:10px;
+	width:95%;
+	margin-left:2.5%;
+	color:rgb(21,21,21);
+	font:32px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:2px solid #000;
+}
+
+div.noticia-show {
+	width:100%;
+	background-image:url(images/back.png);
+	background-repeat:repeat;
+}
+
+div.noticia-title {
+	margin-top:10px;
+	margin-bottom:10px;
+	width:80%;
+	margin-left:10%;
+	padding:10px;
+	color:#000;
+	font:38px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:rgba(255,255,255,0.9);
+}
+
+div.conteudo-show {
+	width:90%;
+	background-color:rgba(255,255,255,0.95);
+	color:#000;
+	font:!important;
+	font-family:!important;
+	margin-left:5% !important;
+	padding:15px !important;
+}
+
+div.perfil-social {
+	width:90%;
+	margin-left:5% !important;
+	margin-bottom:15px !important;
+	height:45px;
+}
+
+div.wrapper-n {
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	width:1000px; 
+	padding:30px 10px;
+}
+
+div.noticia-index {
+	width:320px;
+	height:260px;
+	background:rgb(21,21,21);
+	margin-left:10px;
+	margin-bottom:15px;
+	position: relative;
+	float:left;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+	transition:background 0.8s;
+	border-radius: 5px;
+}
+
+div.noticia-index:hover {
+	background:rgb(51,51,51);
+}
+
+img.noticia-index {
+	width:320px;
+	height:200px;
+}
+
+li {
+	margin-left:2%;
+}
+
+ul {
+	margin-left:2%;
+}
+
+code {
+	margin-top: 1.5em;
+	position: relative;
+	background: #eee;
+	border: 1px solid #aaa;
+	white-space: pre;
+	padding: .25em;
+	color:#000;
+}
+
+blockquote {
+	position: relative;
+	background: #fff6c7;
+	margin: .25em 0;
+	border: 1px solid #aaa;
+	padding: .25em;
+	color:#000;
+}
+
+a.nonelink {
+	text-decoration:none;	
+	color:#FFF;
+}
+a.nonelink:hover {
+	text-decoration:none;	
+	color:#FFF;
+}
+a.nonelink:visited {
+	text-decoration:none;	
+	color:#FFF;
+}
+a.nonelink2 {
+	text-decoration:none;	
+	color:#000;
+}
+a.nonelink2:hover {
+	text-decoration:none;	
+	color:#444;
+}
+a.nonelink2:visited {
+	text-decoration:none;	
+	color:#000;
+}
+hr {
+	width:95%;
+	margin-left:2.5%;
+	color:#000;
+	border:1px solid #000;		
+}
+/* ======================================== */
+/* --= 			Div Buttons	 		 	 =--*/
+/* ======================================== */
+
+div.btn-facebook {
+	width:200px;
+	height:43px;
+	float:left;
+	margin-left:6%;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-repeat:no-repeat;
+	background: #000 url(images/face.png);
+	transition:background 1s;
+}
+div.btn-facebook:hover {
+	background: #4A5FA2 url(images/face.png);
+}
+div.btn-twitter {
+	width:200px;
+	height:43px;
+	float:left;
+	margin-left:6%;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-repeat:no-repeat;
+	background: #000 url(images/twt.png);
+	transition:background 1s;
+}
+div.btn-twitter:hover {
+	background: #62B8D1 url(images/twt.png);
+}
+div.btn-instagram {
+	width:200px;
+	height:43px;
+	float:left;
+	margin-left:6%;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-repeat:no-repeat;
+	background: #000 url(images/inst.png);
+	transition:background 1s;
+}
+div.btn-instagram:hover {
+	background: #72615A url(images/inst.png);
+}
+
+div.btn-categoria {
+	font:22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:rgba(0,0,80,1);
+	text-indent:20px;
+	height:5%;
+	margin-bottom:4%;
+	border-radius:10px;
+	width:100%;
+	transition:background-color 0.8s, text-indent 0.8s;
+}
+
+div.btn-categoria:hover {
+	background-color:rgba(0,0,140,1);
+	text-indent:45px;
+}
+
+div.btn-excluir {
+	height:20px;
+	width:150px;
+	background-image:url(images/excluir.png);
+	background-repeat:no-repeat;
+	text-indent:22px;
+	margin-right:5%;
+	margin-top:0.5%;
+	color:#FFF;
+	float:right;
+	margin-top:-105px;
+	border-radius:5px;
+	border:1px solid #666;
+	transition:background-color, border 0.5s;
+}
+
+div.btn-excluir:hover {
+	background-color:rgba(0,0,255,0.3);
+	border:1px solid #999;
+}
+
+div.btn-alterar {
+	height:20px;
+	width:150px;
+	background-image:url(images/alterar.png);
+	background-repeat:no-repeat;
+	text-indent:22px;
+	margin-right:5%;
+	margin-top:0.5%;
+	color:#FFF;
+	float:right;
+	margin-top:-15px;
+	border-radius:5px;
+	border:1px solid #666;
+	transition:background-color, border 0.5s;
+}
+
+div.btn-alterar:hover {
+	background-color:rgba(0,0,255,0.3);
+	border:1px solid #999;
+}
+
+div.btn-inserir {
+	height:20px;
+	width:150px;
+	background-color:rgba(0,0,0,0.6);
+	background-image:url(images/inserir.png);
+	background-repeat:no-repeat;
+	text-indent:22px;
+	margin-right:5%;
+	margin-top:0.5%;
+	color:#FFF;
+	float:right;
+	margin-top:-15px;
+	border-radius:5px;
+	border:1px solid #666;
+	transition:background-color, border 0.5s;
+}
+
+div.btn-inserir:hover {
+	background-color:rgba(0,0,80,0.6);
+	border:1px solid #999;
+}
+
+/* ======================================== */
+/* --= 			Social Icons	 		 =--*/
+/* ======================================== */
+
+a.facebook {
+	float:right;
+	margin-right:5px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-size: 32px 32px;
+	border-radius: 50%;
+	transition: background-color 0.25s;
+	background: #272727 url(../images/social-icons.png);
+	transition-delay: 0s;
+	transition-duration: 0.25s;
+	transition-property: background-color;
+	transition-timing-function: ease;
+}
+
+a.facebook:hover {
+	background:#355189 url(../images/social-icons.png);;
+}
+
+a.twitter {
+	float:right;
+	margin-left:15px;
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(39, 39, 39);
+	background-image: url(../images/social-icons.png);
+	background-origin: padding-box;
+	background-position: 96px 0px;
+	background-size: auto;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	box-sizing: border-box;
+	color: rgb(0, 172, 238);
+	cursor: auto;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	height: 32px;
+	line-height: 18.571428298950195px;
+	text-align: center;
+	text-decoration: none solid rgb(0, 172, 238);
+	transition-delay: 0s;
+	transition-duration: 0.25s;
+	transition-property: background-color;
+	transition-timing-function: ease;
+	width: 32px;
+	height:32px;
+}
+
+a.twitter:hover {
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-property: background-color;
+	-webkit-transition-timing-function: ease;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: #00ACEE;
+	background-image: url(../images/social-icons.png);
+	background-origin: padding-box;
+	background-position: 96px 0px;
+	background-size: auto;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	box-sizing: border-box;
+	cursor: auto;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	height: 32px;
+	line-height: 18.571428298950195px;
+	text-align: center;
+	text-decoration: none solid rgb(0, 172, 238);
+	transition-delay: 0s;
+	transition-duration: 0.25s;
+	transition-property: background-color;
+	transition-timing-function: ease;
+	width: 32px;
+	height:32px;
+}
+
+
+a.lynx {
+	width:115px;
+	height:107px;
+	margin-right:-152px;
+	margin-top:-70px;
+	background-image:url(../images/lynx_ad.png);
+	background-repeat:no-repeat;
+	float:right;
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	transition:all 0.8s ease;
+}
+
+a.lynx:hover {
+	
+}
